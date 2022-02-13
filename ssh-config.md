@@ -39,7 +39,7 @@ Port 443
 User git
 ```
 
-可以通过man ssh_config来查看参数详细说明，简单来说配置文件中通过Host github.com建了一个新的配置分段，后面的Hostname/Port/User都是这个针对这个分段内部的配置。配置好后，再来看看：
+可以通过man ssh_config来查看参数详细说明，简单来说配置文件中通过Host github.com建了一个新的配置分段，后面的Hostname/Port/User都是针对这个分段内部的配置。配置好后，再来看看：
 ```sh
 ~$ git clone github.com:zenkj/up-to-date-webinfo
 Cloning into 'up-to-date-webinfo'...
