@@ -1,4 +1,4 @@
-# 如何简化GitHub提交的配置
+# 如何免密码向GitHub提交代码
 
 默认情况下，GitHub支持通过HTTPS、SSH以及GitHub CLI三种方式处理源代码的上传下载。以前习惯直接使用HTTPS，因为相对于SSH，HTTPS有如下优点：
 - HTTPS的443端口基本不会被墙，访问起来问题不大，而SSH使用的22端口会被很多防火墙禁止访问（我就用不了）
@@ -56,3 +56,5 @@ LICENSE  README.md
 Everything up-to-date
 ~/up-to-date-webinfo$
 ```
+
+这就很完美了。
