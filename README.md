@@ -8,3 +8,7 @@ up-to-date information of the Internet
 
 ## GitHub
 - [如何在GitHub上提交代码时无需输入密码或token](./ssh-config.md)
+
+## Web Server
+- [如何配置nginx和django，获取到原始的访问域名](./nginx-django-original-url.md)
+
