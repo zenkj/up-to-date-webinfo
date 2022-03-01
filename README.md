@@ -13,3 +13,5 @@ up-to-date information of the Internet
 - [如何配置nginx和django，获取到原始的访问域名](./nginx-django-original-url.md)
 - [如何为单页面应用配置nginx缓存](./nginx-cache-spa.md)
 
+## Python
+- [如何配置pip的国内镜像源](./python-pip-mirrors-china.md)
