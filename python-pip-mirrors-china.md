@@ -1,8 +1,8 @@
-# 如何配置pip的国内镜像源
+# 如何配置python的国内pip镜像源
 
-pip默认从[国外](https://files.pythonhosted.org/)下载安装包，一般非常慢，将其改为国内镜像源会快很多。
+pip默认从[国外](https://files.pythonhosted.org/)下载安装包，一般国内访问非常慢，将其改为国内镜像源会快很多。
 
-国内各大云厂商、某些重点高校都维护了自己的镜像源，以[清华大学镜像源](https://pypi.tuna.tsinghua.edu.cn/simple)为例，可以通过如下命令修改镜像源：
+国内各大云厂商、某些重点高校都维护了自己的镜像源，以[清华大学pip镜像源](https://pypi.tuna.tsinghua.edu.cn/simple)为例，可以通过如下命令修改镜像源：
 
 ```sh
 (myvenv)$ pip install -U pip  # 将pip升级到最新版本(>=10.0.0)

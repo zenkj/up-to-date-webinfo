@@ -14,4 +14,7 @@ up-to-date information of the Internet
 - [如何为单页面应用配置nginx缓存](./nginx-cache-spa.md)
 
 ## Python
-- [如何配置pip的国内镜像源](./python-pip-mirrors-china.md)
+- [如何配置python的国内pip镜像源](./python-pip-mirrors-china.md)
+
+## Ubuntu
+- [如何配置ubuntu的国内apt镜像源](./ubuntu-mirrors-china.md)
