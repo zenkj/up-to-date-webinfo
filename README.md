@@ -18,3 +18,6 @@ up-to-date information of the Internet
 
 ## Ubuntu
 - [如何配置ubuntu的国内apt镜像源](./ubuntu-mirrors-china.md)
+
+## WordPress
+- [Post和Page的区别](./wordpress-post-page.md)
