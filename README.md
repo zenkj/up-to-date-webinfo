@@ -16,6 +16,9 @@ up-to-date information of the Internet
 ## Python
 - [如何配置python的国内pip镜像源](./python-pip-mirrors-china.md)
 
+## Javascript
+- [如何配置JavaScript的国内npm镜像源](./javascript-npm-mirrors-china.md)
+
 ## Ubuntu
 - [如何配置ubuntu的国内apt镜像源](./ubuntu-mirrors-china.md)
 
