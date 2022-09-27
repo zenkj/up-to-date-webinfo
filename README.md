@@ -18,6 +18,7 @@ up-to-date information of the Internet
 
 ## Javascript
 - [如何配置JavaScript的国内npm镜像源](./javascript-npm-mirrors-china.md)
+- [如何编译nodejs的原生扩展](./nodejs-native-addon.md)
 
 ## Ubuntu
 - [如何配置ubuntu的国内apt镜像源](./ubuntu-mirrors-china.md)
