@@ -17,6 +17,12 @@ pip默认从[国外](https://files.pythonhosted.org/)下载安装包，一般国
 index-url = https://pypi.tuna.tsinghua.edu.cn/simple
 (myvenv)$
 ```
+windows的pip配置文件是%AppData%/pip/pip.ini，内容如下：
+```
+[global]
+index-url = https://pypi.tuna.tsinghua.edu.cn/simple
+trusted-host = pypi.tuna.tsinghua.edu.cn
+```
 
 上述升级pip的命令连接到[默认源](https://files.pythonhosted.org/)下载最新pip，如果这个链接访问非常慢，甚至无法访问，可以使用[清华大学镜像源](https://pypi.tuna.tsinghua.edu.cn/simple)来升级pip:
 
