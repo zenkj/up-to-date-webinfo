@@ -14,7 +14,7 @@ up-to-date information of the Internet
 - [如何为单页面应用配置nginx缓存](./nginx-cache-spa.md)
 
 ## Python
-- [如何配置python的国内pip镜像源](./python-pip-mirrors-china.md)
+- [如何为pip/poetry配置python的国内pypi镜像源](./python-pip-mirrors-china.md)
 
 ## Javascript
 - [如何配置JavaScript的国内npm镜像源](./javascript-npm-mirrors-china.md)
