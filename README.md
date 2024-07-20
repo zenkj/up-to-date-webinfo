@@ -35,3 +35,6 @@ up-to-date information of the Internet
 
 ## Docker
 - [如何配置Docker国内镜像](./docker-mirrors-china.md)
+
+## Git
+- [如何配置Git代理](./git-proxy.md)
