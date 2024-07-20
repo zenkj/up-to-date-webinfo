@@ -4,6 +4,8 @@
 git处理方式比较特殊，其配置在~/.gitconfig文件中进行设置：
 
 ```
+[http]
+    proxy = http://127.0.0.1:7890
 [https]
     proxy = http://127.0.0.1:7890
 ```
@@ -11,6 +13,7 @@ git处理方式比较特殊，其配置在~/.gitconfig文件中进行设置：
 如果懒得编辑文件，也可以直接使用如下命令设置：
 
 ```sh
+git config --global http.proxy http://127.0.0.1:7890
 git config --global https.proxy http://127.0.0.1:7890
 ```
 
