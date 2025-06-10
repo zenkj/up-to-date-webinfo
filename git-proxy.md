@@ -18,3 +18,9 @@ git config --global https.proxy http://127.0.0.1:7890
 ```
 
 注意，这个配置是全局的，所以配置完成后，所有的git下载都会经过这个代理。
+如果不需要的话，可以通过如下命令删除代理：
+
+```sh
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
