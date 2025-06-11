@@ -1,4 +1,4 @@
-# 如何配置JavaScript的国内npm镜像源
+# 如何配置JavaScript的国内npm/yarn镜像源
 
 npm默认从[国外](https://registry.npmjs.org/)下载安装包，一般国内访问非常慢，将其改为国内镜像源会快很多。
 
@@ -15,7 +15,20 @@ https://registry.npmmirror.com/
 ~$ 
 ```
 
-一般npm的配置会写到~/.npmrc文件中。
+yarn的命令类似：
+```sh
+~$ yarn config set registry https://registry.npmmirror.com
+~$ cat .yarnrc
+# yarn lockfile v1
+
+registry "https://registry.npmmirror.com"
+~$ yarn config get registry
+https://registry.npmmirror.com/
+~$ 
+```
+
+
+一般npm的配置会写到~/.npmrc文件中，yarn配置会写到~/.yarnrc文件中。
 
 除了上述[淘宝npm镜像源](https://registry.npmmirror.com/)外，还可以使用如下国内云厂商的镜像源：
 
