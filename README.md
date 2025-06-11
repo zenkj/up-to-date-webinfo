@@ -17,7 +17,7 @@ up-to-date information of the Internet
 - [如何为pip/poetry配置python的国内pypi镜像源](./python-pip-mirrors-china.md)
 
 ## Javascript
-- [如何配置JavaScript的国内npm镜像源](./javascript-npm-mirrors-china.md)
+- [如何配置JavaScript的国内npm/yarn镜像源](./javascript-npm-and-yarn-mirrors-china.md)
 - [如何编译nodejs原生扩展](./nodejs-native-addon.md)
 
 ## Ubuntu
