@@ -34,6 +34,7 @@ electron的镜像需要单独设置：
 ```sh
 ~$ yarn config set electron_mirror "https://npmmirror.com/mirrors/electron/"
 ```
+注意带上最后的反斜杠。
 
 一般npm的配置会写到~/.npmrc文件中，yarn配置会写到~/.yarnrc文件中。
 
