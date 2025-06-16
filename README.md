@@ -1,6 +1,9 @@
 # up-to-date-webinfo
 up-to-date information of the Internet
 
+## 命令行配置代理
+- [在各种操作系统的命令行上配置代理](./cli-proxy.md)
+
 ## CDN
 - [Staticfile CDN](http://www.staticfile.org/) - 国内访问很快，由七牛云加速
 - [JSDELIVR](https://www.jsdelivr.com/) - 全球有名的CDN
