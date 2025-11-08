@@ -33,7 +33,7 @@ trusted-host = pypi.tuna.tsinghua.edu.cn
 除了上述[清华大学镜像源](https://pypi.tuna.tsinghua.edu.cn/simple)外，还可以使用如下国内云厂商的镜像源：
 
 - 华为云pip镜像源 - https://repo.huaweicloud.com/repository/pypi/simple
-- 阿里云pip镜像源 - http://mirrors.aliyuncs.com/pypi/simple/
+- 阿里云pip镜像源 - https://mirrors.aliyuncs.com/pypi/simple/
 - 腾讯云pip镜像源 - https://mirrors.cloud.tencent.com/pypi/simple
 
 poetry也是用pip的仓库，但镜像源一般是在pyproject.toml文件中指定，所以poetry的镜像是项目级的，不是用户级的：
