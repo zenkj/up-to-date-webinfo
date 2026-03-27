@@ -36,6 +36,8 @@ trusted-host = pypi.tuna.tsinghua.edu.cn
 - 阿里云pip镜像源 - https://mirrors.aliyuncs.com/pypi/simple/
 - 腾讯云pip镜像源 - https://mirrors.cloud.tencent.com/pypi/simple
 
+## poetry配置镜像源
+
 poetry也是用pip的仓库，但镜像源一般是在pyproject.toml文件中指定，所以poetry的镜像是项目级的，不是用户级的：
 ```sh
 poetry source add --priority=primary mirrors https://pypi.tuna.tsinghua.edu.cn/simple/
@@ -51,3 +53,15 @@ priority = "primary"
 ```
 
 也可直接手工将上述信息添加到pyproject.toml中。
+
+## uv配置镜像源
+uv配置文件一般在：
+
+- Linux / macOS：~/.config/uv/uv.toml
+- Windows：%APPDATA%\uv\uv.toml
+
+添加如下配置：
+
+```toml
+index-url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+```
