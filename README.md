@@ -41,3 +41,7 @@ up-to-date information of the Internet
 
 ## Git
 - [如何配置Git代理](./git-proxy.md)
+
+## Go
+- [如何配置Go国内镜像](./go-mirrors-china.md)
+
